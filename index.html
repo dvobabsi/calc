@@ -1,0 +1,1705 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" contequantity-downnt="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Table</title>
+</head>
+
+<body>
+  <main>
+    <section class="service-calculator">
+      <div class="container">
+        <h1 class="service-calculator__title">Калькулятор услуг</h1>
+        <p class="service-calculator__text">Расценки на электромонтажные работы у нас фиксированные, действительны на <time class="time"></time> Цена остаётся неизменной на протяжении выполнения всего проекта, что исключает неожиданные «сюрпризы» для заказчика, ориентированного на конкретную, озвученную в начале стоимость.</p>
+        <div class="service-calculator__table table">
+          <div class="table__title">
+            <div class="work-type-title">Наименование</div>
+            <div class="unit-title">Ед.</div>
+            <div class="cost-title">Цена</div>
+            <div class="quantity-title">Кол.</div>
+            <div class="result-title">Сумма</div>
+          </div>
+          <div class="table__block">
+            <input type="checkbox" name="catigory" id="catigory-1" class="accordion-radio">
+            <label for="catigory-1" class="accordion-title">
+              <span class="head">1. 1 ЭТАП(ЧЕРНОВАЯ РАБОТА) <span class="arrow"></span></span>
+            </label>
+            <div class="body">
+              <div class="accordion-content">
+                <div class="row">
+                  <label class="work-type" for="row-1-1">Монтаж электроточки(розетка, выключатель, люстра, светильник, вентиляция)(пз/пб/гк/кирпич/бетон)</label>
+                  <div class="unit">м.п.</div>
+                  <div class="cost">650</div>
+                  <div class="quantity">
+                    <button class="quantity-button quantity-down" title="Уменьшения количества">-</button>
+                    <input class="input-quantity" type="number" id="row-1-1" name="quantity" min="0" max="500" value="0" title="Количество услуг">
+                    <button class="quantity-button quantity-up" title="Увеличения количества">+</button>
+                  </div>
+                  <div class="result">0</div>
+                </div>
+                <div class="row">
+                  <label class="work-type" for="row-1-2">Монтаж силового кабеля 6мм2 от щита</label>
+                  <div class="unit">м.п.</div>
+                  <div class="cost">1400</div>
+                  <div class="quantity">
+                    <button class="quantity-button quantity-down" title="Уменьшения количества">-</button>
+                    <input class="input-quantity" type="number" id="row-1-2" name="quantity" min="0" max="500" value="0">
+                    <button class="quantity-button quantity-up" title="Увеличения количества">+</button>
+                  </div>
+                  <div class="result">0</div>
+                </div>
+                <div class="row">
+                  <label class="work-type" for="row-1-3">Отдельная група от подъезда сечением 10мм2</label>
+                  <div class="unit">м.п.</div>
+                  <div class="cost">1800</div>
+                  <div class="quantity">
+                    <button class="quantity-button quantity-down" title="Уменьшения количества">-</button>
+                    <input class="input-quantity" type="number" id="row-1-3" name="quantity" min="0" max="500" value="0">
+                    <button class="quantity-button quantity-up" title="Увеличения количества">+</button>
+                  </div>
+                  <div class="result">0</div>
+                </div>
+                <div class="row">
+                  <label class="work-type" for="row-1-4">Протяжка кабеля в гофру</label>
+                  <div class="unit">м.п.</div>
+                  <div class="cost">30</div>
+                  <div class="quantity">
+                    <button class="quantity-button quantity-down" title="Уменьшения количества">-</button>
+                    <input class="input-quantity" type="number" id="row-1-4" name="quantity" min="0" max="500" value="0">
+                    <button class="quantity-button quantity-up" title="Увеличения количества">+</button>
+                  </div>
+                  <div class="result">0</div>
+                </div>
+                <div class="row">
+                  <label class="work-type" for="row-1-5">Точка со штроблением потолочного перекрытия(материал-бетон)</label>
+                  <div class="unit">м.п.</div>
+                  <div class="cost">1500</div>
+                  <div class="quantity">
+                    <button class="quantity-button quantity-down" title="Уменьшения количества">-</button>
+                    <input class="input-quantity" type="number" id="row-1-5" name="quantity" min="0" max="500" value="0">
+                    <button class="quantity-button quantity-up" title="Увеличения количества">+</button>
+                  </div>
+                  <div class="result">0</div>
+                </div>
+                <div class="row">
+                  <label class="work-type" for="row-1-6">Монтаж отдельной группы от щита</label>
+                  <div class="unit">м.п.</div>
+                  <div class="cost">1300</div>
+                  <div class="quantity">
+                    <button class="quantity-button quantity-down" title="Уменьшения количества">-</button>
+                    <input class="input-quantity" type="number" id="row-1-6" name="quantity" min="0" max="500" value="0">
+                    <button class="quantity-button quantity-up" title="Увеличения количества">+</button>
+                  </div>
+                  <div class="result">0</div>
+                </div>
+                <div class="row">
+                  <label class="work-type" for="row-1-7">Коронка диаметром 70мм в гипсолите, позагребне, пеноблоке</label>
+                  <div class="unit">м.п.</div>
+                  <div class="cost">250</div>
+                  <div class="quantity">
+                    <button class="quantity-button quantity-down" title="Уменьшения количества">-</button>
+                    <input class="input-quantity" type="number" id="row-1-7" name="quantity" min="0" max="500" value="0">
+                    <button class="quantity-button quantity-up" title="Увеличения количества">+</button>
+                  </div>
+                  <div class="result">0</div>
+                </div>
+                <div class="row">
+                  <label class="work-type" for="row-1-8">Коронка диаметром 70мм в кирпиче</label>
+                  <div class="unit">м.п.</div>
+                  <div class="cost">350</div>
+                  <div class="quantity">
+                    <button class="quantity-button quantity-down" title="Уменьшения количества">-</button>
+                    <input class="input-quantity" type="number" id="row-1-8" name="quantity" min="0" max="500" value="0">
+                    <button class="quantity-button quantity-up" title="Увеличения количества">+</button>
+                  </div>
+                  <div class="result">0</div>
+                </div>
+                <div class="row">
+                  <label class="work-type" for="row-1-9">Коронка диаметром 70мм в бетоне</label>
+                  <div class="unit">м.п.</div>
+                  <div class="cost">450</div>
+                  <div class="quantity">
+                    <button class="quantity-button quantity-down" title="Уменьшения количества">-</button>
+                    <input class="input-quantity" type="number" id="row-1-9" name="quantity" min="0" max="500" value="0">
+                    <button class="quantity-button quantity-up" title="Увеличения количества">+</button>
+                  </div>
+                  <div class="result">0</div>
+                </div>
+                <div class="row">
+                  <label class="work-type" for="row-1-10">Коронка диаметром 70мм в керамограните</label>
+                  <div class="unit">м.п.</div>
+                  <div class="cost">400</div>
+                  <div class="quantity">
+                    <button class="quantity-button quantity-down" title="Уменьшения количества">-</button>
+                    <input class="input-quantity" type="number" id="row-1-10" name="quantity" min="0" max="500" value="0">
+                    <button class="quantity-button quantity-up" title="Увеличения количества">+</button>
+                  </div>
+                  <div class="result">0</div>
+                </div>
+                <div class="row">
+                  <label class="work-type" for="row-1-11">Коронка диаметром 80мм в гипсолите, позагребне, пеноблоке</label>
+                  <div class="unit">м.п.</div>
+                  <div class="cost">300</div>
+                  <div class="quantity">
+                    <button class="quantity-button quantity-down" title="Уменьшения количества">-</button>
+                    <input class="input-quantity" type="number" id="row-1-11" name="quantity" min="0" max="500" value="0">
+                    <button class="quantity-button quantity-up" title="Увеличения количества">+</button>
+                  </div>
+                  <div class="result">0</div>
+                </div>
+                <div class="row">
+                  <label class="work-type" for="row-1-12">Коронка диаметром 80мм в кирпиче</label>
+                  <div class="unit">м.п.</div>
+                  <div class="cost">400</div>
+                  <div class="quantity">
+                    <button class="quantity-button quantity-down" title="Уменьшения количества">-</button>
+                    <input class="input-quantity" type="number" id="row-1-12" name="quantity" min="0" max="500" value="0">
+                    <button class="quantity-button quantity-up" title="Увеличения количества">+</button>
+                  </div>
+                  <div class="result">0</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="table__block">
+            <input type="checkbox" name="catigory" id="catigory-2" class="accordion-radio">
+            <label for="catigory-2" class="accordion-title">
+              <span class="head">2. 1 ЭТАП.ШТРОБЛЕНИЕ <span class="arrow"></span></span>
+            </label>
+            <div class="body">
+              <div class="accordion-content">
+                <div class="row">
+                  <label class="work-type" for="row-2-1">Штроба размером 20х15 мм в пеноблоке</label>
+                  <div class="unit">м.п.</div>
+                  <div class="cost">150</div>
+                  <div class="quantity">
+                    <button class="quantity-button quantity-down" title="Уменьшения количества">-</button>
+                    <input class="input-quantity" type="number" id="row-2-1" name="quantity" min="0" max="500" value="0">
+                    <button class="quantity-button quantity-up" title="Увеличения количества">+</button>
+                  </div>
+                  <div class="result">0</div>
+                </div>
+                <div class="row">
+                  <label class="work-type" for="row-2-2">Штроба размером 20х15 мм в кирпиче</label>
+                  <div class="unit">м.п.</div>
+                  <div class="cost">200</div>
+                  <div class="quantity">
+                    <button class="quantity-button quantity-down" title="Уменьшения количества">-</button>
+                    <input class="input-quantity" type="number" id="row-2-2" name="quantity" min="0" max="500" value="0">
+                    <button class="quantity-button quantity-up" title="Увеличения количества">+</button>
+                  </div>
+                  <div class="result">0</div>
+                </div>
+                <div class="row">
+                  <label class="work-type" for="row-2-3">Штроба размером 20х15 мм в бетоне</label>
+                  <div class="unit">м.п.</div>
+                  <div class="cost">370</div>
+                  <div class="quantity">
+                    <button class="quantity-button quantity-down" title="Уменьшения количества">-</button>
+                    <input class="input-quantity" type="number" id="row-2-3" name="quantity" min="0" max="500" value="0">
+                    <button class="quantity-button quantity-up" title="Увеличения количества">+</button>
+                  </div>
+                  <div class="result">0</div>
+                </div>
+                <div class="row">
+                  <label class="work-type" for="row-2-4">Штроба размером 20х25 мм в пеноблоке</label>
+                  <div class="unit">м.п.</div>
+                  <div class="cost">160</div>
+                  <div class="quantity">
+                    <button class="quantity-button quantity-down" title="Уменьшения количества">-</button>
+                    <input class="input-quantity" type="number" id="row-2-4" name="quantity" min="0" max="500" value="0">
+                    <button class="quantity-button quantity-up" title="Увеличения количества">+</button>
+                  </div>
+                  <div class="result">0</div>
+                </div>
+                <div class="row">
+                  <label class="work-type" for="row-2-5">Штроба размером 20х25 мм в кирпиче</label>
+                  <div class="unit">м.п.</div>
+                  <div class="cost">330</div>
+                  <div class="quantity">
+                    <button class="quantity-button quantity-down" title="Уменьшения количества">-</button>
+                    <input class="input-quantity" type="number" id="row-2-5" name="quantity" min="0" max="500" value="0">
+                    <button class="quantity-button quantity-up" title="Увеличения количества">+</button>
+                  </div>
+                  <div class="result">0</div>
+                </div>
+                <div class="row">
+                  <label class="work-type" for="row-2-6">Штроба размером 20х25 мм в бетоне</label>
+                  <div class="unit">м.п.</div>
+                  <div class="cost">580</div>
+                  <div class="quantity">
+                    <button class="quantity-button quantity-down" title="Уменьшения количества">-</button>
+                    <input class="input-quantity" type="number" id="row-2-6" name="quantity" min="0" max="500" value="0">
+                    <button class="quantity-button quantity-up" title="Увеличения количества">+</button>
+                  </div>
+                  <div class="result">0</div>
+                </div>
+                <div class="row">
+                  <label class="work-type" for="row-2-7">Штроба размером 20х45 мм в пеноблоке</label>
+                  <div class="unit">м.п.</div>
+                  <div class="cost">180</div>
+                  <div class="quantity">
+                    <button class="quantity-button quantity-down" title="Уменьшения количества">-</button>
+                    <input class="input-quantity" type="number" id="row-2-7" name="quantity" min="0" max="500" value="0">
+                    <button class="quantity-button quantity-up" title="Увеличения количества">+</button>
+                  </div>
+                  <div class="result">0</div>
+                </div>
+                <div class="row">
+                  <label class="work-type" for="row-2-8">Штроба размером 20х45 мм в кирпиче</label>
+                  <div class="unit">м.п.</div>
+                  <div class="cost">440</div>
+                  <div class="quantity">
+                    <button class="quantity-button quantity-down" title="Уменьшения количества">-</button>
+                    <input class="input-quantity" type="number" id="row-2-8" name="quantity" min="0" max="500" value="0">
+                    <button class="quantity-button quantity-up" title="Увеличения количества">+</button>
+                  </div>
+                  <div class="result">0</div>
+                </div>
+                <div class="row">
+                  <label class="work-type" for="row-2-9">Штроба размером 20х45 мм в бетоне</label>
+                  <div class="unit">м.п.</div>
+                  <div class="cost">800</div>
+                  <div class="quantity">
+                    <button class="quantity-button quantity-down" title="Уменьшения количества">-</button>
+                    <input class="input-quantity" type="number" id="row-2-9" name="quantity" min="0" max="500" value="0">
+                    <button class="quantity-button quantity-up" title="Увеличения количества">+</button>
+                  </div>
+                  <div class="result">0</div>
+                </div>
+                <div class="row">
+                  <label class="work-type" for="row-2-10">Штроба размером 100х45 мм в пеноблоке</label>
+                  <div class="unit">м.п.</div>
+                  <div class="cost">250</div>
+                  <div class="quantity">
+                    <button class="quantity-button quantity-down" title="Уменьшения количества">-</button>
+                    <input class="input-quantity" type="number" id="row-2-10" name="quantity" min="0" max="500" value="0">
+                    <button class="quantity-button quantity-up" title="Увеличения количества">+</button>
+                  </div>
+                  <div class="result">0</div>
+                </div>
+                <div class="row">
+                  <label class="work-type" for="row-2-11">Штроба размером 100х45 мм в кирпиче</label>
+                  <div class="unit">м.п.</div>
+                  <div class="cost">700</div>
+                  <div class="quantity">
+                    <button class="quantity-button quantity-down" title="Уменьшения количества">-</button>
+                    <input class="input-quantity" type="number" id="row-2-11" name="quantity" min="0" max="500" value="0">
+                    <button class="quantity-button quantity-up" title="Увеличения количества">+</button>
+                  </div>
+                  <div class="result">0</div>
+                </div>
+                <div class="row">
+                  <label class="work-type" for="row-2-12">Штроба размером 100х45 мм в бетоне</label>
+                  <div class="unit">м.п.</div>
+                  <div class="cost">1200</div>
+                  <div class="quantity">
+                    <button class="quantity-button quantity-down" title="Уменьшения количества">-</button>
+                    <input class="input-quantity" type="number" id="row-2-12" name="quantity" min="0" max="500" value="0">
+                    <button class="quantity-button quantity-up" title="Увеличения количества">+</button>
+                  </div>
+                  <div class="result">0</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="table__block">
+            <input type="checkbox" name="catigory" id="catigory-3" class="accordion-radio">
+            <label for="catigory-3" class="accordion-title">
+              <span class="head">3. АВТОМАТИЧЕСКИЕ ВЫКЛЮЧАТЕЛИ, УЗО <span class="arrow"></span></span>
+            </label>
+            <div class="body">
+              <div class="accordion-content">
+                <div class="row">
+                  <label class="work-type" for="row-3-1">Автоматический выключатель однополюсный, подключение</label>
+                  <div class="unit">м.п.</div>
+                  <div class="cost">250</div>
+                  <div class="quantity">
+                    <button class="quantity-button quantity-down" title="Уменьшения количества">-</button>
+                    <input class="input-quantity" type="number" id="row-3-1" name="quantity" min="0" max="500" value="0">
+                    <button class="quantity-button quantity-up" title="Увеличения количества">+</button>
+                  </div>
+                  <div class="result">0</div>
+                </div>
+                <div class="row">
+                  <label class="work-type" for="row-3-2">Автоматический выключатель двухполюсный, подключение</label>
+                  <div class="unit">м.п.</div>
+                  <div class="cost">300</div>
+                  <div class="quantity">
+                    <button class="quantity-button quantity-down" title="Уменьшения количества">-</button>
+                    <input class="input-quantity" type="number" id="row-3-2" name="quantity" min="0" max="500" value="0">
+                    <button class="quantity-button quantity-up" title="Увеличения количества">+</button>
+                  </div>
+                  <div class="result">0</div>
+                </div>
+                <div class="row">
+                  <label class="work-type" for="row-3-3">Автоматический выключатель трехполюсный, подключение</label>
+                  <div class="unit">м.п.</div>
+                  <div class="cost">400</div>
+                  <div class="quantity">
+                    <button class="quantity-button quantity-down" title="Уменьшения количества">-</button>
+                    <input class="input-quantity" type="number" id="row-3-3" name="quantity" min="0" max="500" value="0">
+                    <button class="quantity-button quantity-up" title="Увеличения количества">+</button>
+                  </div>
+                  <div class="result">0</div>
+                </div>
+                <div class="row">
+                  <label class="work-type" for="row-3-4">Автоматический выключатель четырехполюсный, подключение</label>
+                  <div class="unit">м.п.</div>
+                  <div class="cost">450</div>
+                  <div class="quantity">
+                    <button class="quantity-button quantity-down" title="Уменьшения количества">-</button>
+                    <input class="input-quantity" type="number" id="row-3-4" name="quantity" min="0" max="500" value="0">
+                    <button class="quantity-button quantity-up" title="Увеличения количества">+</button>
+                  </div>
+                  <div class="result">0</div>
+                </div>
+                <div class="row">
+                  <label class="work-type" for="row-3-5">УЗО (дифференциальный автомат) двухполюсное, подключение</label>
+                  <div class="unit">м.п.</div>
+                  <div class="cost">300</div>
+                  <div class="quantity">
+                    <button class="quantity-button quantity-down" title="Уменьшения количества">-</button>
+                    <input class="input-quantity" type="number" id="row-3-5" name="quantity" min="0" max="500" value="0">
+                    <button class="quantity-button quantity-up" title="Увеличения количества">+</button>
+                  </div>
+                  <div class="result">0</div>
+                </div>
+                <div class="row">
+                  <label class="work-type" for="row-3-6">УЗО (дифференциальный автомат) четырехполюсное, подключение</label>
+                  <div class="unit">м.п.</div>
+                  <div class="cost">500</div>
+                  <div class="quantity">
+                    <button class="quantity-button quantity-down" title="Уменьшения количества">-</button>
+                    <input class="input-quantity" type="number" id="row-3-6" name="quantity" min="0" max="500" value="0">
+                    <button class="quantity-button quantity-up" title="Увеличения количества">+</button>
+                  </div>
+                  <div class="result">0</div>
+                </div>
+                <div class="row">
+                  <label class="work-type" for="row-3-7">Перекидной рубильник 380В, монтаж+подключение</label>
+                  <div class="unit">м.п.</div>
+                  <div class="cost">500</div>
+                  <div class="quantity">
+                    <button class="quantity-button quantity-down" title="Уменьшения количества">-</button>
+                    <input class="input-quantity" type="number" id="row-3-7" name="quantity" min="0" max="500" value="0">
+                    <button class="quantity-button quantity-up" title="Увеличения количества">+</button>
+                  </div>
+                  <div class="result">0</div>
+                </div>
+                <div class="row">
+                  <label class="work-type" for="row-3-8">Реле напряжения установка, подключение</label>
+                  <div class="unit">м.п.</div>
+                  <div class="cost">500</div>
+                  <div class="quantity">
+                    <button class="quantity-button quantity-down" title="Уменьшения количества">-</button>
+                    <input class="input-quantity" type="number" id="row-3-8" name="quantity" min="0" max="500" value="0">
+                    <button class="quantity-button quantity-up" title="Увеличения количества">+</button>
+                  </div>
+                  <div class="result">0</div>
+                </div>
+                <div class="row">
+                  <label class="work-type" for="row-3-9">Счетчика электрического однофазного установка+подключение</label>
+                  <div class="unit">м.п.</div>
+                  <div class="cost">1000</div>
+                  <div class="quantity">
+                    <button class="quantity-button quantity-down" title="Уменьшения количества">-</button>
+                    <input class="input-quantity" type="number" id="row-3-9" name="quantity" min="0" max="500" value="0">
+                    <button class="quantity-button quantity-up" title="Увеличения количества">+</button>
+                  </div>
+                  <div class="result">0</div>
+                </div>
+                <div class="row">
+                  <label class="work-type" for="row-3-10">Счетчика электрического трехфазного установка+подключение</label>
+                  <div class="unit">м.п.</div>
+                  <div class="cost">1500</div>
+                  <div class="quantity">
+                    <button class="quantity-button quantity-down" title="Уменьшения количества">-</button>
+                    <input class="input-quantity" type="number" id="row-3-10" name="quantity" min="0" max="500" value="0">
+                    <button class="quantity-button quantity-up" title="Увеличения количества">+</button>
+                  </div>
+                  <div class="result">0</div>
+                </div>
+                <div class="row">
+                  <label class="work-type" for="row-3-11">Линии силовой подключение в щите</label>
+                  <div class="unit">м.п.</div>
+                  <div class="cost">500</div>
+                  <div class="quantity">
+                    <button class="quantity-button quantity-down" title="Уменьшения количества">-</button>
+                    <input class="input-quantity" type="number" id="row-3-11" name="quantity" min="0" max="500" value="0">
+                    <button class="quantity-button quantity-up" title="Увеличения количества">+</button>
+                  </div>
+                  <div class="result">0</div>
+                </div>
+                <div class="row">
+                  <label class="work-type" for="row-3-12">Линий UTP в щитке подключение</label>
+                  <div class="unit">м.п.</div>
+                  <div class="cost">500</div>
+                  <div class="quantity">
+                    <button class="quantity-button quantity-down" title="Уменьшения количества">-</button>
+                    <input class="input-quantity" type="number" id="row-3-12" name="quantity" min="0" max="500" value="0">
+                    <button class="quantity-button quantity-up" title="Увеличения количества">+</button>
+                  </div>
+                  <div class="result">0</div>
+                </div>
+                <div class="row">
+                  <label class="work-type" for="row-3-13">Линий ТV и телефонных к линии в щитке подключение</label>
+                  <div class="unit">м.п.</div>
+                  <div class="cost">400</div>
+                  <div class="quantity">
+                    <button class="quantity-button quantity-down" title="Уменьшения количества">-</button>
+                    <input class="input-quantity" type="number" id="row-3-13" name="quantity" min="0" max="500" value="0">
+                    <button class="quantity-button quantity-up" title="Увеличения количества">+</button>
+                  </div>
+                  <div class="result">0</div>
+                </div>
+                <div class="row">
+                  <label class="work-type" for="row-3-14">Магнитный пускатель однофазный, установка+подключение</label>
+                  <div class="unit">м.п.</div>
+                  <div class="cost">450</div>
+                  <div class="quantity">
+                    <button class="quantity-button quantity-down" title="Уменьшения количества">-</button>
+                    <input class="input-quantity" type="number" id="row-3-14" name="quantity" min="0" max="500" value="0">
+                    <button class="quantity-button quantity-up" title="Увеличения количества">+</button>
+                  </div>
+                  <div class="result">0</div>
+                </div>
+                <div class="row">
+                  <label class="work-type" for="row-3-15">Магнитный пускатель трехфазный, установка+подключение</label>
+                  <div class="unit">м.п.</div>
+                  <div class="cost">600</div>
+                  <div class="quantity">
+                    <button class="quantity-button quantity-down" title="Уменьшения количества">-</button>
+                    <input class="input-quantity" type="number" id="row-3-15" name="quantity" min="0" max="500" value="0">
+                    <button class="quantity-button quantity-up" title="Увеличения количества">+</button>
+                  </div>
+                  <div class="result">0</div>
+                </div>
+                <div class="row">
+                  <label class="work-type" for="row-3-16">Монтаж DIN-рейки</label>
+                  <div class="unit">м.п.</div>
+                  <div class="cost">100</div>
+                  <div class="quantity">
+                    <button class="quantity-button quantity-down" title="Уменьшения количества">-</button>
+                    <input class="input-quantity" type="number" id="row-3-16" name="quantity" min="0" max="500" value="0">
+                    <button class="quantity-button quantity-up" title="Увеличения количества">+</button>
+                  </div>
+                  <div class="result">0</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="table__block">
+            <input type="checkbox" name="catigory" id="catigory-4" class="accordion-radio">
+            <label for="catigory-4" class="accordion-title">
+              <span class="head">4. 1 ЭПАП.ЭЛЕКТРОЩИТЫ, НИША+МОНТАЖ В НИШУ <span class="arrow"></span></span>
+            </label>
+            <div class="body">
+              <div class="accordion-content">
+                <div class="row">
+                  <label class="work-type" for="row-4-1">Электрощит наружной установки, монтаж</label>
+                  <div class="unit">м.п.</div>
+                  <div class="cost">1000</div>
+                  <div class="quantity">
+                    <button class="quantity-button quantity-down" title="Уменьшения количества">-</button>
+                    <input class="input-quantity" type="number" id="row-4-1" name="quantity" min="0" max="500" value="0">
+                    <button class="quantity-button quantity-up" title="Увеличения количества">+</button>
+                  </div>
+                  <div class="result">0</div>
+                </div>
+                <div class="row">
+                  <label class="work-type" for="row-4-2">Электрощит на 8 модулей внутренней установки в пеноблоке</label>
+                  <div class="unit">м.п.</div>
+                  <div class="cost">1200</div>
+                  <div class="quantity">
+                    <button class="quantity-button quantity-down" title="Уменьшения количества">-</button>
+                    <input class="input-quantity" type="number" id="row-4-2" name="quantity" min="0" max="500" value="0">
+                    <button class="quantity-button quantity-up" title="Увеличения количества">+</button>
+                  </div>
+                  <div class="result">0</div>
+                </div>
+                <div class="row">
+                  <label class="work-type" for="row-4-3">Электрощит на 8 модулей внутренней установки в кирпиче</label>
+                  <div class="unit">м.п.</div>
+                  <div class="cost">1700</div>
+                  <div class="quantity">
+                    <button class="quantity-button quantity-down" title="Уменьшения количества">-</button>
+                    <input class="input-quantity" type="number" id="row-4-3" name="quantity" min="0" max="500" value="0">
+                    <button class="quantity-button quantity-up" title="Увеличения количества">+</button>
+                  </div>
+                  <div class="result">0</div>
+                </div>
+                <div class="row">
+                  <label class="work-type" for="row-4-4">Электрощит на 12 модулей внутренней установки в пеноблоке</label>
+                  <div class="unit">м.п.</div>
+                  <div class="cost">1500</div>
+                  <div class="quantity">
+                    <button class="quantity-button quantity-down" title="Уменьшения количества">-</button>
+                    <input class="input-quantity" type="number" id="row-4-4" name="quantity" min="0" max="500" value="0">
+                    <button class="quantity-button quantity-up" title="Увеличения количества">+</button>
+                  </div>
+                  <div class="result">0</div>
+                </div>
+                <div class="row">
+                  <label class="work-type" for="row-4-5">Электрощит на 12 модулей внутренней установки в кирпиче</label>
+                  <div class="unit">м.п.</div>
+                  <div class="cost">2000</div>
+                  <div class="quantity">
+                    <button class="quantity-button quantity-down" title="Уменьшения количества">-</button>
+                    <input class="input-quantity" type="number" id="row-4-5" name="quantity" min="0" max="500" value="0">
+                    <button class="quantity-button quantity-up" title="Увеличения количества">+</button>
+                  </div>
+                  <div class="result">0</div>
+                </div>
+                <div class="row">
+                  <label class="work-type" for="row-4-6">Электрощит на 18 модулей внутренней установки в пеноблоке</label>
+                  <div class="unit">м.п.</div>
+                  <div class="cost">2300</div>
+                  <div class="quantity">
+                    <button class="quantity-button quantity-down" title="Уменьшения количества">-</button>
+                    <input class="input-quantity" type="number" id="row-4-6" name="quantity" min="0" max="500" value="0">
+                    <button class="quantity-button quantity-up" title="Увеличения количества">+</button>
+                  </div>
+                  <div class="result">0</div>
+                </div>
+                <div class="row">
+                  <label class="work-type" for="row-4-7">Электрощит на 18 модулей внутренней установки в кирпиче</label>
+                  <div class="unit">м.п.</div>
+                  <div class="cost">2800</div>
+                  <div class="quantity">
+                    <button class="quantity-button quantity-down" title="Уменьшения количества">-</button>
+                    <input class="input-quantity" type="number" id="row-4-7" name="quantity" min="0" max="500" value="0">
+                    <button class="quantity-button quantity-up" title="Увеличения количества">+</button>
+                  </div>
+                  <div class="result">0</div>
+                </div>
+                <div class="row">
+                  <label class="work-type" for="row-4-8">Электрощит на 24 модуля внутренней установки в пеноблоке</label>
+                  <div class="unit">м.п.</div>
+                  <div class="cost">2500</div>
+                  <div class="quantity">
+                    <button class="quantity-button quantity-down" title="Уменьшения количества">-</button>
+                    <input class="input-quantity" type="number" id="row-4-8" name="quantity" min="0" max="500" value="0">
+                    <button class="quantity-button quantity-up" title="Увеличения количества">+</button>
+                  </div>
+                  <div class="result">0</div>
+                </div>
+                <div class="row">
+                  <label class="work-type" for="row-4-9">Электрощит на 24 модуля внутренней установки в кирпиче</label>
+                  <div class="unit">м.п.</div>
+                  <div class="cost">3000</div>
+                  <div class="quantity">
+                    <button class="quantity-button quantity-down" title="Уменьшения количества">-</button>
+                    <input class="input-quantity" type="number" id="row-4-9" name="quantity" min="0" max="500" value="0">
+                    <button class="quantity-button quantity-up" title="Увеличения количества">+</button>
+                  </div>
+                  <div class="result">0</div>
+                </div>
+                <div class="row">
+                  <label class="work-type" for="row-4-10">Электрощит на 36 модулей внутренней установки в пеноблоке</label>
+                  <div class="unit">м.п.</div>
+                  <div class="cost">2800</div>
+                  <div class="quantity">
+                    <button class="quantity-button quantity-down" title="Уменьшения количества">-</button>
+                    <input class="input-quantity" type="number" id="row-4-10" name="quantity" min="0" max="500" value="0">
+                    <button class="quantity-button quantity-up" title="Увеличения количества">+</button>
+                  </div>
+                  <div class="result">0</div>
+                </div>
+                <div class="row">
+                  <label class="work-type" for="row-4-11">Электрощит на 36 модулей внутренней установки в кирпиче</label>
+                  <div class="unit">м.п.</div>
+                  <div class="cost">3300</div>
+                  <div class="quantity">
+                    <button class="quantity-button quantity-down" title="Уменьшения количества">-</button>
+                    <input class="input-quantity" type="number" id="row-4-11" name="quantity" min="0" max="500" value="0">
+                    <button class="quantity-button quantity-up" title="Увеличения количества">+</button>
+                  </div>
+                  <div class="result">0</div>
+                </div>
+                <div class="row">
+                  <label class="work-type" for="row-4-12">Электрощит на 48 модулей внутренней установки в пеноблоке</label>
+                  <div class="unit">м.п.</div>
+                  <div class="cost">3100</div>
+                  <div class="quantity">
+                    <button class="quantity-button quantity-down" title="Уменьшения количества">-</button>
+                    <input class="input-quantity" type="number" id="row-4-12" name="quantity" min="0" max="500" value="0">
+                    <button class="quantity-button quantity-up" title="Увеличения количества">+</button>
+                  </div>
+                  <div class="result">0</div>
+                </div>
+                <div class="row">
+                  <label class="work-type" for="row-4-13">Электрощит на 48 модулей внутренней установки в кирпиче</label>
+                  <div class="unit">м.п.</div>
+                  <div class="cost">3600</div>
+                  <div class="quantity">
+                    <button class="quantity-button quantity-down" title="Уменьшения количества">-</button>
+                    <input class="input-quantity" type="number" id="row-4-13" name="quantity" min="0" max="500" value="0">
+                    <button class="quantity-button quantity-up" title="Увеличения количества">+</button>
+                  </div>
+                  <div class="result">0</div>
+                </div>
+                <div class="row">
+                  <label class="work-type" for="row-4-14">Электрощит на 54 модуля внутренней установки в пеноблоке</label>
+                  <div class="unit">м.п.</div>
+                  <div class="cost">3400</div>
+                  <div class="quantity">
+                    <button class="quantity-button quantity-down" title="Уменьшения количества">-</button>
+                    <input class="input-quantity" type="number" id="row-4-14" name="quantity" min="0" max="500" value="0">
+                    <button class="quantity-button quantity-up" title="Увеличения количества">+</button>
+                  </div>
+                  <div class="result">0</div>
+                </div>
+                <div class="row">
+                  <label class="work-type" for="row-4-15">Электрощит на 54 модуля внутренней установки в кирпиче</label>
+                  <div class="unit">м.п.</div>
+                  <div class="cost">3900</div>
+                  <div class="quantity">
+                    <button class="quantity-button quantity-down" title="Уменьшения количества">-</button>
+                    <input class="input-quantity" type="number" id="row-4-15" name="quantity" min="0" max="500" value="0">
+                    <button class="quantity-button quantity-up" title="Увеличения количества">+</button>
+                  </div>
+                  <div class="result">0</div>
+                </div>
+                <div class="row">
+                  <label class="work-type" for="row-4-16">Электрощит на 60 модулей внутренней установки в пеноблоке</label>
+                  <div class="unit">м.п.</div>
+                  <div class="cost">3700</div>
+                  <div class="quantity">
+                    <button class="quantity-button quantity-down" title="Уменьшения количества">-</button>
+                    <input class="input-quantity" type="number" id="row-4-16" name="quantity" min="0" max="500" value="0">
+                    <button class="quantity-button quantity-up" title="Увеличения количества">+</button>
+                  </div>
+                  <div class="result">0</div>
+                </div>
+                <div class="row">
+                  <label class="work-type" for="row-4-17">Электрощит на 60 модулей внутренней установки в кирпиче</label>
+                  <div class="unit">м.п.</div>
+                  <div class="cost">4200</div>
+                  <div class="quantity">
+                    <button class="quantity-button quantity-down" title="Уменьшения количества">-</button>
+                    <input class="input-quantity" type="number" id="row-4-17" name="quantity" min="0" max="500" value="0">
+                    <button class="quantity-button quantity-up" title="Увеличения количества">+</button>
+                  </div>
+                  <div class="result">0</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="table__block">
+            <input type="checkbox" name="catigory" id="catigory-5" class="accordion-radio">
+            <label for="catigory-5" class="accordion-title">
+              <span class="head">5. 3 ЭТАП. РОЗЕТКИ, ВЫКЛЮЧАТЕЛИ, ДИММЕРЫ <span class="arrow"></span></span>
+            </label>
+            <div class="body">
+              <div class="accordion-content">
+                <div class="row">
+                  <label class="work-type" for="row-5-1">Выключатель, утопленный тип, монтаж</label>
+                  <div class="unit">м.п.</div>
+                  <div class="cost">150</div>
+                  <div class="quantity">
+                    <button class="quantity-button quantity-down" title="Уменьшения количества">-</button>
+                    <input class="input-quantity" type="number" id="row-5-1" name="quantity" min="0" max="500" value="0">
+                    <button class="quantity-button quantity-up" title="Увеличения количества">+</button>
+                  </div>
+                  <div class="result">0</div>
+                </div>
+                <div class="row">
+                  <label class="work-type" for="row-5-2">Розетка, утопленный тип, монтаж</label>
+                  <div class="unit">м.п.</div>
+                  <div class="cost">200</div>
+                  <div class="quantity">
+                    <button class="quantity-button quantity-down" title="Уменьшения количества">-</button>
+                    <input class="input-quantity" type="number" id="row-5-2" name="quantity" min="0" max="500" value="0">
+                    <button class="quantity-button quantity-up" title="Увеличения количества">+</button>
+                  </div>
+                  <div class="result">0</div>
+                </div>
+                <div class="row">
+                  <label class="work-type" for="row-5-3">Розетка для электроплиты наружная</label>
+                  <div class="unit">м.п.</div>
+                  <div class="cost">500</div>
+                  <div class="quantity">
+                    <button class="quantity-button quantity-down" title="Уменьшения количества">-</button>
+                    <input class="input-quantity" type="number" id="row-5-3" name="quantity" min="0" max="500" value="0">
+                    <button class="quantity-button quantity-up" title="Увеличения количества">+</button>
+                  </div>
+                  <div class="result">0</div>
+                </div>
+                <div class="row">
+                  <label class="work-type" for="row-5-4">Розетка для электроплиты внутренняя</label>
+                  <div class="unit">м.п.</div>
+                  <div class="cost">500</div>
+                  <div class="quantity">
+                    <button class="quantity-button quantity-down" title="Уменьшения количества">-</button>
+                    <input class="input-quantity" type="number" id="row-5-4" name="quantity" min="0" max="500" value="0">
+                    <button class="quantity-button quantity-up" title="Увеличения количества">+</button>
+                  </div>
+                  <div class="result">0</div>
+                </div>
+                <div class="row">
+                  <label class="work-type" for="row-5-5">Реостата (диммера) для регулировки нагрева теплого пола</label>
+                  <div class="unit">м.п.</div>
+                  <div class="cost">550</div>
+                  <div class="quantity">
+                    <button class="quantity-button quantity-down" title="Уменьшения количества">-</button>
+                    <input class="input-quantity" type="number" id="row-5-5" name="quantity" min="0" max="500" value="0">
+                    <button class="quantity-button quantity-up" title="Увеличения количества">+</button>
+                  </div>
+                  <div class="result">0</div>
+                </div>
+                <div class="row">
+                  <label class="work-type" for="row-5-6">Диммер освещения</label>
+                  <div class="unit">м.п.</div>
+                  <div class="cost">350</div>
+                  <div class="quantity">
+                    <button class="quantity-button quantity-down" title="Уменьшения количества">-</button>
+                    <input class="input-quantity" type="number" id="row-5-6" name="quantity" min="0" max="500" value="0">
+                    <button class="quantity-button quantity-up" title="Увеличения количества">+</button>
+                  </div>
+                  <div class="result">0</div>
+                </div>
+                <div class="row">
+                  <label class="work-type" for="row-5-7">Розетка 2UTP, установка</label>
+                  <div class="unit">м.п.</div>
+                  <div class="cost">350</div>
+                  <div class="quantity">
+                    <button class="quantity-button quantity-down" title="Уменьшения количества">-</button>
+                    <input class="input-quantity" type="number" id="row-5-7" name="quantity" min="0" max="500" value="0">
+                    <button class="quantity-button quantity-up" title="Увеличения количества">+</button>
+                  </div>
+                  <div class="result">0</div>
+                </div>
+                <div class="row">
+                  <label class="work-type" for="row-5-8">Розетка UTP, установка</label>
+                  <div class="unit">м.п.</div>
+                  <div class="cost">250</div>
+                  <div class="quantity">
+                    <button class="quantity-button quantity-down" title="Уменьшения количества">-</button>
+                    <input class="input-quantity" type="number" id="row-5-8" name="quantity" min="0" max="500" value="0">
+                    <button class="quantity-button quantity-up" title="Увеличения количества">+</button>
+                  </div>
+                  <div class="result">0</div>
+                </div>
+                <div class="row">
+                  <label class="work-type" for="row-5-9">ТВ розетка, монтаж</label>
+                  <div class="unit">м.п.</div>
+                  <div class="cost">200</div>
+                  <div class="quantity">
+                    <button class="quantity-button quantity-down" title="Уменьшения количества">-</button>
+                    <input class="input-quantity" type="number" id="row-5-9" name="quantity" min="0" max="500" value="0">
+                    <button class="quantity-button quantity-up" title="Увеличения количества">+</button>
+                  </div>
+                  <div class="result">0</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="table__block">
+            <input type="checkbox" name="catigory" id="catigory-6" class="accordion-radio">
+            <label for="catigory-6" class="accordion-title">
+              <span class="head">6. 3 ЭТАП. ЛЮСТРЫ, БРА, СВЕТИЛЬНИКИ <span class="arrow"></span></span>
+            </label>
+            <div class="body">
+              <div class="accordion-content">
+                <div class="row">
+                  <label class="work-type" for="row-6-1">Люстры монтаж и подключение</label>
+                  <div class="unit">м.п.</div>
+                  <div class="cost">1500</div>
+                  <div class="quantity">
+                    <button class="quantity-button quantity-down" title="Уменьшения количества">-</button>
+                    <input class="input-quantity" type="number" id="row-6-1" name="quantity" min="0" max="500" value="0">
+                    <button class="quantity-button quantity-up" title="Увеличения количества">+</button>
+                  </div>
+                  <div class="result">0</div>
+                </div>
+                <div class="row">
+                  <label class="work-type" for="row-6-2">Светильник потолочный</label>
+                  <div class="unit">м.п.</div>
+                  <div class="cost">1100</div>
+                  <div class="quantity">
+                    <button class="quantity-button quantity-down" title="Уменьшения количества">-</button>
+                    <input class="input-quantity" type="number" id="row-6-2" name="quantity" min="0" max="500" value="0">
+                    <button class="quantity-button quantity-up" title="Увеличения количества">+</button>
+                  </div>
+                  <div class="result">0</div>
+                </div>
+                <div class="row">
+                  <label class="work-type" for="row-6-3">Бра (светильник настенный)</label>
+                  <div class="unit">м.п.</div>
+                  <div class="cost">400</div>
+                  <div class="quantity">
+                    <button class="quantity-button quantity-down" title="Уменьшения количества">-</button>
+                    <input class="input-quantity" type="number" id="row-6-3" name="quantity" min="0" max="500" value="0">
+                    <button class="quantity-button quantity-up" title="Увеличения количества">+</button>
+                  </div>
+                  <div class="result">0</div>
+                </div>
+                <div class="row">
+                  <label class="work-type" for="row-6-4">Светильник точечный</label>
+                  <div class="unit">м.п.</div>
+                  <div class="cost">250</div>
+                  <div class="quantity">
+                    <button class="quantity-button quantity-down" title="Уменьшения количества">-</button>
+                    <input class="input-quantity" type="number" id="row-6-4" name="quantity" min="0" max="500" value="0">
+                    <button class="quantity-button quantity-up" title="Увеличения количества">+</button>
+                  </div>
+                  <div class="result">0</div>
+                </div>
+                <div class="row">
+                  <label class="work-type" for="row-6-5">Сверление отверстия для точечного светильника в гипсокартоне</label>
+                  <div class="unit">м.п.</div>
+                  <div class="cost">200</div>
+                  <div class="quantity">
+                    <button class="quantity-button quantity-down" title="Уменьшения количества">-</button>
+                    <input class="input-quantity" type="number" id="row-6-5" name="quantity" min="0" max="500" value="0">
+                    <button class="quantity-button quantity-up" title="Увеличения количества">+</button>
+                  </div>
+                  <div class="result">0</div>
+                </div>
+                <div class="row">
+                  <label class="work-type" for="row-6-6">Сверление отверстия для точечного светильника в реечном потолке</label>
+                  <div class="unit">м.п.</div>
+                  <div class="cost">300</div>
+                  <div class="quantity">
+                    <button class="quantity-button quantity-down" title="Уменьшения количества">-</button>
+                    <input class="input-quantity" type="number" id="row-6-6" name="quantity" min="0" max="500" value="0">
+                    <button class="quantity-button quantity-up" title="Увеличения количества">+</button>
+                  </div>
+                  <div class="result">0</div>
+                </div>
+                <div class="row">
+                  <label class="work-type" for="row-6-7">Светильник потолочный типа "Армстронг"</label>
+                  <div class="unit">м.п.</div>
+                  <div class="cost">800</div>
+                  <div class="quantity">
+                    <button class="quantity-button quantity-down" title="Уменьшения количества">-</button>
+                    <input class="input-quantity" type="number" id="row-6-7" name="quantity" min="0" max="500" value="0">
+                    <button class="quantity-button quantity-up" title="Увеличения количества">+</button>
+                  </div>
+                  <div class="result">0</div>
+                </div>
+                <div class="row">
+                  <label class="work-type" for="row-6-8">Светодиодная лента</label>
+                  <div class="unit">м.п.</div>
+                  <div class="cost">500</div>
+                  <div class="quantity">
+                    <button class="quantity-button quantity-down" title="Уменьшения количества">-</button>
+                    <input class="input-quantity" type="number" id="row-6-8" name="quantity" min="0" max="500" value="0">
+                    <button class="quantity-button quantity-up" title="Увеличения количества">+</button>
+                  </div>
+                  <div class="result">0</div>
+                </div>
+                <div class="row">
+                  <label class="work-type" for="row-6-9">Сборка люстры одноплафонной(тарелка)</label>
+                  <div class="unit">м.п.</div>
+                  <div class="cost">300</div>
+                  <div class="quantity">
+                    <button class="quantity-button quantity-down" title="Уменьшения количества">-</button>
+                    <input class="input-quantity" type="number" id="row-6-9" name="quantity" min="0" max="500" value="0">
+                    <button class="quantity-button quantity-up" title="Увеличения количества">+</button>
+                  </div>
+                  <div class="result">0</div>
+                </div>
+                <div class="row">
+                  <label class="work-type" for="row-6-10">Сборка спиральной люстры</label>
+                  <div class="unit">м.п.</div>
+                  <div class="cost">500</div>
+                  <div class="quantity">
+                    <button class="quantity-button quantity-down" title="Уменьшения количества">-</button>
+                    <input class="input-quantity" type="number" id="row-6-10" name="quantity" min="0" max="500" value="0">
+                    <button class="quantity-button quantity-up" title="Увеличения количества">+</button>
+                  </div>
+                  <div class="result">0</div>
+                </div>
+                <div class="row">
+                  <label class="work-type" for="row-6-11">Сборка люстры каркасной</label>
+                  <div class="unit">м.п.</div>
+                  <div class="cost">400</div>
+                  <div class="quantity">
+                    <button class="quantity-button quantity-down" title="Уменьшения количества">-</button>
+                    <input class="input-quantity" type="number" id="row-6-11" name="quantity" min="0" max="500" value="0">
+                    <button class="quantity-button quantity-up" title="Увеличения количества">+</button>
+                  </div>
+                  <div class="result">0</div>
+                </div>
+                <div class="row">
+                  <label class="work-type" for="row-6-12">Зеркало с подсветкой, подключение</label>
+                  <div class="unit">м.п.</div>
+                  <div class="cost">500</div>
+                  <div class="quantity">
+                    <button class="quantity-button quantity-down" title="Уменьшения количества">-</button>
+                    <input class="input-quantity" type="number" id="row-6-12" name="quantity" min="0" max="500" value="0">
+                    <button class="quantity-button quantity-up" title="Увеличения количества">+</button>
+                  </div>
+                  <div class="result">0</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="table__block">
+            <input type="checkbox" name="catigory" id="catigory-7" class="accordion-radio">
+            <label for="catigory-7" class="accordion-title">
+              <span class="head">7. ЗАМЕНА ЛАМП, ДРОССЕЛЕЙ, ТРАНСФОРМАТОРОВ и т.д. <span class="arrow"></span></span>
+            </label>
+            <div class="body">
+              <div class="accordion-content">
+                <div class="row">
+                  <label class="work-type" for="row-7-1">Установка трансформатора, дросселя</label>
+                  <div class="unit">м.п.</div>
+                  <div class="cost">350</div>
+                  <div class="quantity">
+                    <button class="quantity-button quantity-down" title="Уменьшения количества">-</button>
+                    <input class="input-quantity" type="number" id="row-7-1" name="quantity" min="0" max="500" value="0">
+                    <button class="quantity-button quantity-up" title="Увеличения количества">+</button>
+                  </div>
+                  <div class="result">0</div>
+                </div>
+                <div class="row">
+                  <label class="work-type" for="row-7-2">Замена стартера</label>
+                  <div class="unit">м.п.</div>
+                  <div class="cost">50</div>
+                  <div class="quantity">
+                    <button class="quantity-button quantity-down" title="Уменьшения количества">-</button>
+                    <input class="input-quantity" type="number" id="row-7-2" name="quantity" min="0" max="500" value="0">
+                    <button class="quantity-button quantity-up" title="Увеличения количества">+</button>
+                  </div>
+                  <div class="result">0</div>
+                </div>
+                <div class="row">
+                  <label class="work-type" for="row-7-3">Замена люминесцентной лампы</label>
+                  <div class="unit">м.п.</div>
+                  <div class="cost">100</div>
+                  <div class="quantity">
+                    <button class="quantity-button quantity-down" title="Уменьшения количества">-</button>
+                    <input class="input-quantity" type="number" id="row-7-3" name="quantity" min="0" max="500" value="0">
+                    <button class="quantity-button quantity-up" title="Увеличения количества">+</button>
+                  </div>
+                  <div class="result">0</div>
+                </div>
+                <div class="row">
+                  <label class="work-type" for="row-7-4">Замена лампы накаливания, галогенной, светодиодной и т.д.</label>
+                  <div class="unit">м.п.</div>
+                  <div class="cost">50</div>
+                  <div class="quantity">
+                    <button class="quantity-button quantity-down" title="Уменьшения количества">-</button>
+                    <input class="input-quantity" type="number" id="row-7-4" name="quantity" min="0" max="500" value="0">
+                    <button class="quantity-button quantity-up" title="Увеличения количества">+</button>
+                  </div>
+                  <div class="result">0</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="table__block">
+            <input type="checkbox" name="catigory" id="catigory-8" class="accordion-radio">
+            <label for="catigory-8" class="accordion-title">
+              <span class="head">8. УСТАНОВКА ОБОРУДОВАНИЯ <span class="arrow"></span></span>
+            </label>
+            <div class="body">
+              <div class="accordion-content">
+                <div class="row">
+                  <label class="work-type" for="row-8-1">Звонок электрический+кнопка</label>
+                  <div class="unit">м.п.</div>
+                  <div class="cost">500</div>
+                  <div class="quantity">
+                    <button class="quantity-button quantity-down" title="Уменьшения количества">-</button>
+                    <input class="input-quantity" type="number" id="row-8-1" name="quantity" min="0" max="500" value="0">
+                    <button class="quantity-button quantity-up" title="Увеличения количества">+</button>
+                  </div>
+                  <div class="result">0</div>
+                </div>
+                <div class="row">
+                  <label class="work-type" for="row-8-2">Стабилизатора напряжения для силовых линий установка от 2500</label>
+                  <div class="unit">м.п.</div>
+                  <div class="cost">2500</div>
+                  <div class="quantity">
+                    <button class="quantity-button quantity-down" title="Уменьшения количества">-</button>
+                    <input class="input-quantity" type="number" id="row-8-2" name="quantity" min="0" max="500" value="0">
+                    <button class="quantity-button quantity-up" title="Увеличения количества">+</button>
+                  </div>
+                  <div class="result">0</div>
+                </div>
+                <div class="row">
+                  <label class="work-type" for="row-8-3">Вентилятор, увлажнитель воздуха, (монтаж и подключение)</label>
+                  <div class="unit">м.п.</div>
+                  <div class="cost">500</div>
+                  <div class="quantity">
+                    <button class="quantity-button quantity-down" title="Уменьшения количества">-</button>
+                    <input class="input-quantity" type="number" id="row-8-3" name="quantity" min="0" max="500" value="0">
+                    <button class="quantity-button quantity-up" title="Увеличения количества">+</button>
+                  </div>
+                  <div class="result">0</div>
+                </div>
+                <div class="row">
+                  <label class="work-type" for="row-8-4">Видеодомофона (вызывной панели)</label>
+                  <div class="unit">м.п.</div>
+                  <div class="cost">350</div>
+                  <div class="quantity">
+                    <button class="quantity-button quantity-down" title="Уменьшения количества">-</button>
+                    <input class="input-quantity" type="number" id="row-8-4" name="quantity" min="0" max="500" value="0">
+                    <button class="quantity-button quantity-up" title="Увеличения количества">+</button>
+                  </div>
+                  <div class="result">0</div>
+                </div>
+                <div class="row">
+                  <label class="work-type" for="row-8-5">Видеодомофона (монитора)</label>
+                  <div class="unit">м.п.</div>
+                  <div class="cost">1500</div>
+                  <div class="quantity">
+                    <button class="quantity-button quantity-down" title="Уменьшения количества">-</button>
+                    <input class="input-quantity" type="number" id="row-8-5" name="quantity" min="0" max="500" value="0">
+                    <button class="quantity-button quantity-up" title="Увеличения количества">+</button>
+                  </div>
+                  <div class="result">0</div>
+                </div>
+                <div class="row">
+                  <label class="work-type" for="row-8-6">Сушилки электрической для рук установка</label>
+                  <div class="unit">м.п.</div>
+                  <div class="cost">700</div>
+                  <div class="quantity">
+                    <button class="quantity-button quantity-down" title="Уменьшения количества">-</button>
+                    <input class="input-quantity" type="number" id="row-8-6" name="quantity" min="0" max="500" value="0">
+                    <button class="quantity-button quantity-up" title="Увеличения количества">+</button>
+                  </div>
+                  <div class="result">0</div>
+                </div>
+                <div class="row">
+                  <label class="work-type" for="row-8-7">Патрон+лампочка, монтаж</label>
+                  <div class="unit">м.п.</div>
+                  <div class="cost">50</div>
+                  <div class="quantity">
+                    <button class="quantity-button quantity-down" title="Уменьшения количества">-</button>
+                    <input class="input-quantity" type="number" id="row-8-7" name="quantity" min="0" max="500" value="0">
+                    <button class="quantity-button quantity-up" title="Увеличения количества">+</button>
+                  </div>
+                  <div class="result">0</div>
+                </div>
+                <div class="row">
+                  <label class="work-type" for="row-8-8">Понижающий трансфооматор для диодной ленты, монтаж</label>
+                  <div class="unit">м.п.</div>
+                  <div class="cost">450</div>
+                  <div class="quantity">
+                    <button class="quantity-button quantity-down" title="Уменьшения количества">-</button>
+                    <input class="input-quantity" type="number" id="row-8-8" name="quantity" min="0" max="500" value="0">
+                    <button class="quantity-button quantity-up" title="Увеличения количества">+</button>
+                  </div>
+                  <div class="result">0</div>
+                </div>
+                <div class="row">
+                  <label class="work-type" for="row-8-9">Духовой шкаф, подключение через клемную колодку</label>
+                  <div class="unit">м.п.</div>
+                  <div class="cost">1500</div>
+                  <div class="quantity">
+                    <button class="quantity-button quantity-down" title="Уменьшения количества">-</button>
+                    <input class="input-quantity" type="number" id="row-8-9" name="quantity" min="0" max="500" value="0">
+                    <button class="quantity-button quantity-up" title="Увеличения количества">+</button>
+                  </div>
+                  <div class="result">0</div>
+                </div>
+                <div class="row">
+                  <label class="work-type" for="row-8-10">Электроплита, подключение через клемную колодку</label>
+                  <div class="unit">м.п.</div>
+                  <div class="cost">1500</div>
+                  <div class="quantity">
+                    <button class="quantity-button quantity-down" title="Уменьшения количества">-</button>
+                    <input class="input-quantity" type="number" id="row-8-10" name="quantity" min="0" max="500" value="0">
+                    <button class="quantity-button quantity-up" title="Увеличения количества">+</button>
+                  </div>
+                  <div class="result">0</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="table__block">
+            <input type="checkbox" name="catigory" id="catigory-9" class="accordion-radio">
+            <label for="catigory-9" class="accordion-title">
+              <span class="head">9. ДЕМОНТАЖНЫЕ РАБОТЫ <span class="arrow"></span></span>
+            </label>
+            <div class="body">
+              <div class="accordion-content">
+                <div class="row">
+                  <label class="work-type" for="row-9-1">Автомат, демонтаж</label>
+                  <div class="unit">м.п.</div>
+                  <div class="cost">50</div>
+                  <div class="quantity">
+                    <button class="quantity-button quantity-down" title="Уменьшения количества">-</button>
+                    <input class="input-quantity" type="number" id="row-9-1" name="quantity" min="0" max="500" value="0">
+                    <button class="quantity-button quantity-up" title="Увеличения количества">+</button>
+                  </div>
+                  <div class="result">0</div>
+                </div>
+                <div class="row">
+                  <label class="work-type" for="row-9-2">Розетка, выключатель, демонтаж</label>
+                  <div class="unit">м.п.</div>
+                  <div class="cost">50</div>
+                  <div class="quantity">
+                    <button class="quantity-button quantity-down" title="Уменьшения количества">-</button>
+                    <input class="input-quantity" type="number" id="row-9-2" name="quantity" min="0" max="500" value="0">
+                    <button class="quantity-button quantity-up" title="Увеличения количества">+</button>
+                  </div>
+                  <div class="result">0</div>
+                </div>
+                <div class="row">
+                  <label class="work-type" for="row-9-3">Счетчика электрического демонтаж</label>
+                  <div class="unit">м.п.</div>
+                  <div class="cost">300</div>
+                  <div class="quantity">
+                    <button class="quantity-button quantity-down" title="Уменьшения количества">-</button>
+                    <input class="input-quantity" type="number" id="row-9-3" name="quantity" min="0" max="500" value="0">
+                    <button class="quantity-button quantity-up" title="Увеличения количества">+</button>
+                  </div>
+                  <div class="result">0</div>
+                </div>
+                <div class="row">
+                  <label class="work-type" for="row-9-4">Люстры, бра</label>
+                  <div class="unit">м.п.</div>
+                  <div class="cost">300</div>
+                  <div class="quantity">
+                    <button class="quantity-button quantity-down" title="Уменьшения количества">-</button>
+                    <input class="input-quantity" type="number" id="row-9-4" name="quantity" min="0" max="500" value="0">
+                    <button class="quantity-button quantity-up" title="Увеличения количества">+</button>
+                  </div>
+                  <div class="result">0</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="table__block">
+            <input type="checkbox" name="catigory" id="catigory-10" class="accordion-radio">
+            <label for="catigory-10" class="accordion-title">
+              <span class="head">10. ПОДГОТОВИТЕЛЬНЫЕ РАБОТЫ <span class="arrow"></span></span>
+            </label>
+            <div class="body">
+              <div class="accordion-content">
+                <div class="row">
+                  <label class="work-type" for="row-10-1">Сверление сквозное в бетоне диаметром 40мм</label>
+                  <div class="unit">м.п.</div>
+                  <div class="cost">350</div>
+                  <div class="quantity">
+                    <button class="quantity-button quantity-down" title="Уменьшения количества">-</button>
+                    <input class="input-quantity" type="number" id="row-10-1" name="quantity" min="0" max="500" value="0">
+                    <button class="quantity-button quantity-up" title="Увеличения количества">+</button>
+                  </div>
+                  <div class="result">0</div>
+                </div>
+                <div class="row">
+                  <label class="work-type" for="row-10-2">Сверление сквозное в кирпиче диаметром 40мм</label>
+                  <div class="unit">м.п.</div>
+                  <div class="cost">200</div>
+                  <div class="quantity">
+                    <button class="quantity-button quantity-down" title="Уменьшения количества">-</button>
+                    <input class="input-quantity" type="number" id="row-10-2" name="quantity" min="0" max="500" value="0">
+                    <button class="quantity-button quantity-up" title="Увеличения количества">+</button>
+                  </div>
+                  <div class="result">0</div>
+                </div>
+                <div class="row">
+                  <label class="work-type" for="row-10-3">Сверление сквозное в бетоне диаметром 70мм</label>
+                  <div class="unit">м.п.</div>
+                  <div class="cost">500</div>
+                  <div class="quantity">
+                    <button class="quantity-button quantity-down" title="Уменьшения количества">-</button>
+                    <input class="input-quantity" type="number" id="row-10-3" name="quantity" min="0" max="500" value="0">
+                    <button class="quantity-button quantity-up" title="Увеличения количества">+</button>
+                  </div>
+                  <div class="result">0</div>
+                </div>
+                <div class="row">
+                  <label class="work-type" for="row-10-4">Сверление сквозное в кирпиче диаметром 70мм</label>
+                  <div class="unit">м.п.</div>
+                  <div class="cost">350</div>
+                  <div class="quantity">
+                    <button class="quantity-button quantity-down" title="Уменьшения количества">-</button>
+                    <input class="input-quantity" type="number" id="row-10-4" name="quantity" min="0" max="500" value="0">
+                    <button class="quantity-button quantity-up" title="Увеличения количества">+</button>
+                  </div>
+                  <div class="result">0</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="table__block">
+            <input type="checkbox" name="catigory" id="catigory-11" class="accordion-radio">
+            <label for="catigory-11" class="accordion-title">
+              <span class="head">11. Материалы <span class="arrow"></span></span>
+            </label>
+            <div class="body">
+              <div class="accordion-content">
+                <div class="row">
+                  <label class="work-type" for="row-11-1">Кабель ВВГні-LS 2*1, 5 ГОСТ</label>
+                  <div class="unit">м.п.</div>
+                  <div class="cost">40</div>
+                  <div class="quantity">
+                    <button class="quantity-button quantity-down" title="Уменьшения количества">-</button>
+                    <input class="input-quantity" type="number" id="row-11-1" name="quantity" min="0" max="500" value="0">
+                    <button class="quantity-button quantity-up" title="Увеличения количества">+</button>
+                  </div>
+                  <div class="result">0</div>
+                </div>
+                <div class="row">
+                  <label class="work-type" for="row-11-2">Кабель ВВГні-LS 3*1, 5 ГОСТ</label>
+                  <div class="unit">м.п.</div>
+                  <div class="cost">70</div>
+                  <div class="quantity">
+                    <button class="quantity-button quantity-down" title="Уменьшения количества">-</button>
+                    <input class="input-quantity" type="number" id="row-11-2" name="quantity" min="0" max="500" value="0">
+                    <button class="quantity-button quantity-up" title="Увеличения количества">+</button>
+                  </div>
+                  <div class="result">0</div>
+                </div>
+                <div class="row">
+                  <label class="work-type" for="row-11-3">Кабель ВВГнгІ_8 3*2, 5 ГОСТ</label>
+                  <div class="unit">м.п.</div>
+                  <div class="cost">95</div>
+                  <div class="quantity">
+                    <button class="quantity-button quantity-down" title="Уменьшения количества">-</button>
+                    <input class="input-quantity" type="number" id="row-11-3" name="quantity" min="0" max="500" value="0">
+                    <button class="quantity-button quantity-up" title="Увеличения количества">+</button>
+                  </div>
+                  <div class="result">0</div>
+                </div>
+                <div class="row">
+                  <label class="work-type" for="row-11-4">Кабель ВВГні-LS 3*6 ГОСТ</label>
+                  <div class="unit">м.п.</div>
+                  <div class="cost">270</div>
+                  <div class="quantity">
+                    <button class="quantity-button quantity-down" title="Уменьшения количества">-</button>
+                    <input class="input-quantity" type="number" id="row-11-4" name="quantity" min="0" max="500" value="0">
+                    <button class="quantity-button quantity-up" title="Увеличения количества">+</button>
+                  </div>
+                  <div class="result">0</div>
+                </div>
+                <div class="row">
+                  <label class="work-type" for="row-11-5">Кабель ВВГнгІ-S 4*1, 5 ГОСТ</label>
+                  <div class="unit">м.п.</div>
+                  <div class="cost">80</div>
+                  <div class="quantity">
+                    <button class="quantity-button quantity-down" title="Уменьшения количества">-</button>
+                    <input class="input-quantity" type="number" id="row-11-5" name="quantity" min="0" max="500" value="0">
+                    <button class="quantity-button quantity-up" title="Увеличения количества">+</button>
+                  </div>
+                  <div class="result">0</div>
+                </div>
+                <div class="row">
+                  <label class="work-type" for="row-11-6">Кабель телевизионный коаксиальный SAT</label>
+                  <div class="unit">м.п.</div>
+                  <div class="cost">65</div>
+                  <div class="quantity">
+                    <button class="quantity-button quantity-down" title="Уменьшения количества">-</button>
+                    <input class="input-quantity" type="number" id="row-11-6" name="quantity" min="0" max="500" value="0">
+                    <button class="quantity-button quantity-up" title="Увеличения количества">+</button>
+                  </div>
+                  <div class="result">0</div>
+                </div>
+                <div class="row">
+                  <label class="work-type" for="row-11-7">Клипса</label>
+                  <div class="unit">шт.</div>
+                  <div class="cost">2</div>
+                  <div class="quantity">
+                    <button class="quantity-button quantity-down" title="Уменьшения количества">-</button>
+                    <input class="input-quantity" type="number" id="row-11-7" name="quantity" min="0" max="500" value="0">
+                    <button class="quantity-button quantity-up" title="Увеличения количества">+</button>
+                  </div>
+                  <div class="result">0</div>
+                </div>
+                <div class="row">
+                  <label class="work-type" for="row-11-8">Дюбель-хомут</label>
+                  <div class="unit">шт.</div>
+                  <div class="cost">100</div>
+                  <div class="quantity">
+                    <button class="quantity-button quantity-down" title="Уменьшения количества">-</button>
+                    <input class="input-quantity" type="number" id="row-11-8" name="quantity" min="0" max="500" value="0">
+                    <button class="quantity-button quantity-up" title="Увеличения количества">+</button>
+                  </div>
+                  <div class="result">0</div>
+                </div>
+                <div class="row">
+                  <label class="work-type" for="row-11-9">Гофра 20мм</label>
+                  <div class="unit">м.п.</div>
+                  <div class="cost">12</div>
+                  <div class="quantity">
+                    <button class="quantity-button quantity-down" title="Уменьшения количества">-</button>
+                    <input class="input-quantity" type="number" id="row-11-9" name="quantity" min="0" max="500" value="0">
+                    <button class="quantity-button quantity-up" title="Увеличения количества">+</button>
+                  </div>
+                  <div class="result">0</div>
+                </div>
+                <div class="row">
+                  <label class="work-type" for="row-11-10">Гофра 25мм</label>
+                  <div class="unit">м.п.</div>
+                  <div class="cost">28</div>
+                  <div class="quantity">
+                    <button class="quantity-button quantity-down" title="Уменьшения количества">-</button>
+                    <input class="input-quantity" type="number" id="row-11-10" name="quantity" min="0" max="500" value="0">
+                    <button class="quantity-button quantity-up" title="Увеличения количества">+</button>
+                  </div>
+                  <div class="result">0</div>
+                </div>
+                <div class="row">
+                  <label class="work-type" for="row-11-11">Гофра 32мм</label>
+                  <div class="unit">м.п.</div>
+                  <div class="cost">32</div>
+                  <div class="quantity">
+                    <button class="quantity-button quantity-down" title="Уменьшения количества">-</button>
+                    <input class="input-quantity" type="number" id="row-11-11" name="quantity" min="0" max="500" value="0">
+                    <button class="quantity-button quantity-up" title="Увеличения количества">+</button>
+                  </div>
+                  <div class="result">0</div>
+                </div>
+                <div class="row">
+                  <label class="work-type" for="row-11-12">Патрон (быстрозажимной)</label>
+                  <div class="unit">шт.</div>
+                  <div class="cost">20</div>
+                  <div class="quantity">
+                    <button class="quantity-button quantity-down" title="Уменьшения количества">-</button>
+                    <input class="input-quantity" type="number" id="row-11-12" name="quantity" min="0" max="500" value="0">
+                    <button class="quantity-button quantity-up" title="Увеличения количества">+</button>
+                  </div>
+                  <div class="result">0</div>
+                </div>
+                <div class="row">
+                  <label class="work-type" for="row-11-13">ПНД черная гладкая 20мм</label>
+                  <div class="unit">м.п.</div>
+                  <div class="cost">25</div>
+                  <div class="quantity">
+                    <button class="quantity-button quantity-down" title="Уменьшения количества">-</button>
+                    <input class="input-quantity" type="number" id="row-11-13" name="quantity" min="0" max="500" value="0">
+                    <button class="quantity-button quantity-up" title="Увеличения количества">+</button>
+                  </div>
+                  <div class="result">0</div>
+                </div>
+                <div class="row">
+                  <label class="work-type" for="row-11-14">ПНД чёрная гладкая 25мм</label>
+                  <div class="unit">м.п.</div>
+                  <div class="cost">30</div>
+                  <div class="quantity">
+                    <button class="quantity-button quantity-down" title="Уменьшения количества">-</button>
+                    <input class="input-quantity" type="number" id="row-11-14" name="quantity" min="0" max="500" value="0">
+                    <button class="quantity-button quantity-up" title="Увеличения количества">+</button>
+                  </div>
+                  <div class="result">0</div>
+                </div>
+                <div class="row">
+                  <label class="work-type" for="row-11-15">Подрозетник 68*45</label>
+                  <div class="unit">шт.</div>
+                  <div class="cost">15</div>
+                  <div class="quantity">
+                    <button class="quantity-button quantity-down" title="Уменьшения количества">-</button>
+                    <input class="input-quantity" type="number" id="row-11-15" name="quantity" min="0" max="500" value="0">
+                    <button class="quantity-button quantity-up" title="Увеличения количества">+</button>
+                  </div>
+                  <div class="result">0</div>
+                </div>
+                <div class="row">
+                  <label class="work-type" for="row-11-16">Подрозетник 68*60</label>
+                  <div class="unit">шт.</div>
+                  <div class="cost">20</div>
+                  <div class="quantity">
+                    <button class="quantity-button quantity-down" title="Уменьшения количества">-</button>
+                    <input class="input-quantity" type="number" id="row-11-16" name="quantity" min="0" max="500" value="0">
+                    <button class="quantity-button quantity-up" title="Увеличения количества">+</button>
+                  </div>
+                  <div class="result">0</div>
+                </div>
+                <div class="row">
+                  <label class="work-type" for="row-11-17">Распределительная коробка 100*100</label>
+                  <div class="unit">шт.</div>
+                  <div class="cost">120</div>
+                  <div class="quantity">
+                    <button class="quantity-button quantity-down" title="Уменьшения количества">-</button>
+                    <input class="input-quantity" type="number" id="row-11-17" name="quantity" min="0" max="500" value="0">
+                    <button class="quantity-button quantity-up" title="Увеличения количества">+</button>
+                  </div>
+                  <div class="result">0</div>
+                </div>
+                <div class="row">
+                  <label class="work-type" for="row-11-18">РК внутреннего исполнения 80мм</label>
+                  <div class="unit">шт.</div>
+                  <div class="cost">20</div>
+                  <div class="quantity">
+                    <button class="quantity-button quantity-down" title="Уменьшения количества">-</button>
+                    <input class="input-quantity" type="number" id="row-11-18" name="quantity" min="0" max="500" value="0">
+                    <button class="quantity-button quantity-up" title="Увеличения количества">+</button>
+                  </div>
+                  <div class="result">0</div>
+                </div>
+                <div class="row">
+                  <label class="work-type" for="row-11-19">Розетка, для времянки</label>
+                  <div class="unit">шт.</div>
+                  <div class="cost">50</div>
+                  <div class="quantity">
+                    <button class="quantity-button quantity-down" title="Уменьшения количества">-</button>
+                    <input class="input-quantity" type="number" id="row-11-19" name="quantity" min="0" max="500" value="0">
+                    <button class="quantity-button quantity-up" title="Увеличения количества">+</button>
+                  </div>
+                  <div class="result">0</div>
+                </div>
+                <div class="row">
+                  <label class="work-type" for="row-11-20">Сетевой кабель (витая пара) UTP 5е, медь</label>
+                  <div class="unit">м.п.</div>
+                  <div class="cost">40</div>
+                  <div class="quantity">
+                    <button class="quantity-button quantity-down" title="Уменьшения количества">-</button>
+                    <input class="input-quantity" type="number" id="row-11-20" name="quantity" min="0" max="500" value="0">
+                    <button class="quantity-button quantity-up" title="Увеличения количества">+</button>
+                  </div>
+                  <div class="result">0</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="table__block">
+            <input type="checkbox" name="catigory" id="catigory-12" class="accordion-radio">
+            <label for="catigory-12" class="accordion-title">
+              <span class="head">12. Ретропроводка <span class="arrow"></span></span>
+            </label>
+            <div class="body">
+              <div class="accordion-content">
+                <div class="row">
+                  <label class="work-type" for="row-12-1">Прокладка ретро провода</label>
+                  <div class="unit">м.п.</div>
+                  <div class="cost">90</div>
+                  <div class="quantity">
+                    <button class="quantity-button quantity-down" title="Уменьшения количества">-</button>
+                    <input class="input-quantity" type="number" id="row-12-1" name="quantity" min="0" max="500" value="0">
+                    <button class="quantity-button quantity-up" title="Увеличения количества">+</button>
+                  </div>
+                  <div class="result">0</div>
+                </div>
+                <div class="row">
+                  <label class="work-type" for="row-12-2">Монтаж ретро розетки</label>
+                  <div class="unit">м.п.</div>
+                  <div class="cost">350</div>
+                  <div class="quantity">
+                    <button class="quantity-button quantity-down" title="Уменьшения количества">-</button>
+                    <input class="input-quantity" type="number" id="row-12-2" name="quantity" min="0" max="500" value="0">
+                    <button class="quantity-button quantity-up" title="Увеличения количества">+</button>
+                  </div>
+                  <div class="result">0</div>
+                </div>
+                <div class="row">
+                  <label class="work-type" for="row-12-3">Монтаж ретро выключателя</label>
+                  <div class="unit">м.п.</div>
+                  <div class="cost">350</div>
+                  <div class="quantity">
+                    <button class="quantity-button quantity-down" title="Уменьшения количества">-</button>
+                    <input class="input-quantity" type="number" id="row-12-3" name="quantity" min="0" max="500" value="0">
+                    <button class="quantity-button quantity-up" title="Увеличения количества">+</button>
+                  </div>
+                  <div class="result">0</div>
+                </div>
+                <div class="row">
+                  <label class="work-type" for="row-12-4">Монтаж распаячной коробки ретро</label>
+                  <div class="unit">м.п.</div>
+                  <div class="cost">350</div>
+                  <div class="quantity">
+                    <button class="quantity-button quantity-down" title="Уменьшения количества">-</button>
+                    <input class="input-quantity" type="number" id="row-12-4" name="quantity" min="0" max="500" value="0">
+                    <button class="quantity-button quantity-up" title="Увеличения количества">+</button>
+                  </div>
+                  <div class="result">0</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="table__block">
+            <input type="checkbox" name="catigory" id="catigory-13" class="accordion-radio">
+            <label for="catigory-13" class="accordion-title">
+              <span class="head">13. Заземление <span class="arrow"></span></span>
+            </label>
+            <div class="body">
+              <div class="accordion-content">
+                <div class="row">
+                  <label class="work-type" for="row-13-1">Заземляющий контур 6 метров («для дачи»)</label>
+                  <div class="unit">м.п.</div>
+                  <div class="cost">9000</div>
+                  <div class="quantity">
+                    <button class="quantity-button quantity-down" title="Уменьшения количества">-</button>
+                    <input class="input-quantity" type="number" id="row-13-1" name="quantity" min="0" max="500" value="0">
+                    <button class="quantity-button quantity-up" title="Увеличения количества">+</button>
+                  </div>
+                  <div class="result">0</div>
+                </div>
+                <div class="row">
+                  <label class="work-type" for="row-13-2">Заземляющий контур 9 метров</label>
+                  <div class="unit">м.п.</div>
+                  <div class="cost">11000</div>
+                  <div class="quantity">
+                    <button class="quantity-button quantity-down" title="Уменьшения количества">-</button>
+                    <input class="input-quantity" type="number" id="row-13-2" name="quantity" min="0" max="500" value="0">
+                    <button class="quantity-button quantity-up" title="Увеличения количества">+</button>
+                  </div>
+                  <div class="result">0</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="table__block">
+            <input type="checkbox" name="catigory" id="catigory-14" class="accordion-radio">
+            <label for="catigory-14" class="accordion-title">
+              <span class="head">14. Распределительные коробки <span class="arrow"></span></span>
+            </label>
+            <div class="body">
+              <div class="accordion-content">
+                <div class="row">
+                  <label class="work-type" for="row-14-1">Распределительная коробка, монтаж</label>
+                  <div class="unit">м.п.</div>
+                  <div class="cost">100</div>
+                  <div class="quantity">
+                    <button class="quantity-button quantity-down" title="Уменьшения количества">-</button>
+                    <input class="input-quantity" type="number" id="row-14-1" name="quantity" min="0" max="500" value="0">
+                    <button class="quantity-button quantity-up" title="Увеличения количества">+</button>
+                  </div>
+                  <div class="result">0</div>
+                </div>
+                <div class="row">
+                  <label class="work-type" for="row-14-2">Рассключение РК скруткой</label>
+                  <div class="unit">м.п.</div>
+                  <div class="cost">400</div>
+                  <div class="quantity">
+                    <button class="quantity-button quantity-down" title="Уменьшения количества">-</button>
+                    <input class="input-quantity" type="number" id="row-14-2" name="quantity" min="0" max="500" value="0">
+                    <button class="quantity-button quantity-up" title="Увеличения количества">+</button>
+                  </div>
+                  <div class="result">0</div>
+                </div>
+                <div class="row">
+                  <label class="work-type" for="row-14-3">Расключение РК сваркой</label>
+                  <div class="unit">м.п.</div>
+                  <div class="cost">650</div>
+                  <div class="quantity">
+                    <button class="quantity-button quantity-down" title="Уменьшения количества">-</button>
+                    <input class="input-quantity" type="number" id="row-14-3" name="quantity" min="0" max="500" value="0">
+                    <button class="quantity-button quantity-up" title="Увеличения количества">+</button>
+                  </div>
+                  <div class="result">0</div>
+                </div>
+                <div class="row">
+                  <label class="work-type" for="row-14-4">Расключение РК зажимом WAGO</label>
+                  <div class="unit">м.п.</div>
+                  <div class="cost">450</div>
+                  <div class="quantity">
+                    <button class="quantity-button quantity-down" title="Уменьшения количества">-</button>
+                    <input class="input-quantity" type="number" id="row-14-4" name="quantity" min="0" max="500" value="0">
+                    <button class="quantity-button quantity-up" title="Увеличения количества">+</button>
+                  </div>
+                  <div class="result">0</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="table__block">
+            <input type="checkbox" name="catigory" id="catigory-15" class="accordion-radio">
+            <label for="catigory-15" class="accordion-title">
+              <span class="head">15. ПРИМЕЧАНИЕ <span class="arrow"></span></span>
+            </label>
+            <div class="body">
+              <div class="accordion-content">
+                <div class="row">
+                  <label class="work-type" for="row-15-1">Выезд мастера для составления сметы</label>
+                  <div class="unit">шт</div>
+                  <div class="cost">0</div>
+                  <div class="quantity">
+                    <button class="quantity-button quantity-down" title="Уменьшения количества">-</button>
+                    <input class="input-quantity" type="number" id="row-15-1" name="quantity" min="0" max="1" value="0">
+                    <button class="quantity-button quantity-up" title="Увеличения количества">+</button>
+                  </div>
+                  <div class="result">0</div>
+                </div>
+                <div class="row">
+                  <label class="work-type" for="row-15-2">Услуга по покупке материалов, зап. частей и прочее</label>
+                  <div class="unit">шт</div>
+                  <div class="cost">1000</div>
+                  <div class="quantity">
+                    <button class="quantity-button quantity-down" title="Уменьшения количества">-</button>
+                    <input class="input-quantity" type="number" id="row-15-2" name="quantity" min="0" max="1" value="0">
+                    <button class="quantity-button quantity-up" title="Увеличения количества">+</button>
+                  </div>
+                  <div class="result">0</div>
+                </div>
+                <div class="row">
+                  <label class="work-type" for="row-15-3">Составление проекта для электромонтажных работ</label>
+                  <div class="unit">шт</div>
+                  <div class="cost">0</div>
+                  <div class="quantity">
+                    <button class="quantity-button quantity-down" title="Уменьшения количества">-</button>
+                    <input class="input-quantity" type="number" id="row-15-3" name="quantity" min="0" max="1" value="0">
+                    <button class="quantity-button quantity-up" title="Увеличения количества">+</button>
+                  </div>
+                  <div class="result">0</div>
+                </div>
+                <div class="row">
+                  <label class="work-type" for="row-15-4">Фотоотчет по окончанию черновых работ</label>
+                  <div class="unit">шт</div>
+                  <div class="cost">0</div>
+                  <div class="quantity">
+                    <button class="quantity-button quantity-down" title="Уменьшения количества">-</button>
+                    <input class="input-quantity" type="number" id="row-15-4" name="quantity" min="0" max="1" value="0">
+                    <button class="quantity-button quantity-up" title="Увеличения количества">+</button>
+                  </div>
+                  <div class="result">0</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="table__footer">
+            <div class="block-all-summa">Сумма <span><span class="summa">0</span> руб</span></div>
+          </div>
+          
+          <div class="additional-works">
+            <fieldset class="additional-works__block">
+              <legend class="additional-works__title">Работы на высоте:</legend>
+              <label for="additional-works__zero">
+                Без высотных работ (0%)
+                <input class="additional-works-input" id="additional-works__zero" type="radio" name="additionalWork1" value="0" checked>
+              </label>
+              <label for="additional-works__one">
+                Коэффициент на работы свыше 3 метров (25%)
+                <input class="additional-works-input" id="additional-works__one" type="radio" name="additionalWork1" value="25">
+              </label>
+              <label for="additional-works__two">
+                Коэффициент на работы свыше 4 метров (50%)
+                <input class="additional-works-input" id="additional-works__two" type="radio" name="additionalWork1" value="50">
+              </label>
+            </fieldset>
+            <fieldset class="additional-works__block">
+              <legend class="additional-works__title">Выезд за город:</legend>
+              <label for="additional-works__six">
+                Коэффициент в пределах г.Обнинск (0%)
+                <input class="additional-works-input" id="additional-works__six" type="radio" name="additionalWork2" value="0" checked>
+              </label>
+              <label for="additional-works__tree">
+                Коэффициент на выполнение работ за пределами г.Обнинска радуса 5км (5%)
+                <input class="additional-works-input" id="additional-works__tree" type="radio" name="additionalWork2" value="5">
+              </label>
+              <label for="additional-works__four">
+                Коэффициент на выполнение работ за пределами г.Обнинска радуса 10км (10%)
+                <input class="additional-works-input" id="additional-works__four" type="radio" name="additionalWork2" value="10">
+              </label>
+            </fieldset>
+            
+          </div>
+
+          <div class="table__buttons">
+            <button type="button" class="button clear-button">Очистить</button>
+            <button type="button" class=" button download-button">Скачать смету</button>
+          </div>
+          
+        </div>
+        
+      </div>
+    </section>
+  </main>
+
+  <script defer="" src="./js/script.js"></script>
+  <script defer="" src="./js/pdfmake.min.js"></script>
+  <script defer="" src="./js/pdfmake.js"></script>
+  <script defer="" src="./js/vfs_fonts.js"></script>
+  <script defer="" src="./js/moment.js"></script>
+</body>
+
+</html>
